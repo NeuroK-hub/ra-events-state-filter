@@ -1,0 +1,46 @@
+body {
+	overflow-y: scroll;
+ }
+ 
+ .toolbar {
+	margin-top: 15px;
+	text-align: center;
+ }
+ 
+ .toolbar__button {
+	padding: 10px 15px;
+	background-color: #ffffff;
+	color: #404040;
+	border: 1px solid #000000;
+	border-radius: 0px;
+	margin-right: 10px;
+ }
+ 
+ .toolbar__button_active {
+	background-color: #404040;
+	color: #ffffff;
+ }
+ 
+ .projects {
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+ }
+ 
+ .projects__list {
+	padding: 0;
+	list-style: none;
+	column-count: 3;
+	column-gap: 20px;
+ }
+ 
+ .projects__item {
+	display: block;
+	margin-bottom: 20px;
+	width: 300px;
+	
+ }
+ 
+ img {
+	width: 100%;
+ }
